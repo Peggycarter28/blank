@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    height: 0;
+    background-color: black;
+    font: normal;
+    /* letter-spacing: 1px; */
+    
+    
+}
+.container{
+    background-color: rgb(16, 23, 24);
+    color: white;
+    width: 40%;
+    margin-left:15% ;
+    border-radius: 2%;
+    margin-top: 20%;
+    padding: 2%;
+
+
+}
+.profile-picture{
+    margin-left: 18%;
+    line-height: 0.2rem;
+    
+}
+span{
+    color: yellow;
+    
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+    
+
+  
+
+button{
+    
+  background-color:rgb(34, 37, 37);
+  border: none;
+  width: 250px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 7%;
+ 
+  
+}
+button:hover{
+    background-color: yellow;
+    transition-duration: 0.5s;
+
+}
+section{
+    padding-left: 23%;
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+
+
+    
+    .container{
+        width: 100%;
+    }
+    section{
+        padding-left: 0;
+    }
+}
+    
